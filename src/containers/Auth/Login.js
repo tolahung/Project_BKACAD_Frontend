@@ -83,8 +83,8 @@ class Login extends Component {
                     <div className='login-content'>
                         <div className='col-12 text-login'>Login</div>
                         <div className='col-12 form-group login-input'>
-                            <label>Username:</label>
-                            <input type='text' value={this.state.username} className='form-control' placeholder='Enter your username' onChange={(e) => this.handleOnChangeUsername(e)} />
+                            <label>Email:</label>
+                            <input type='text' value={this.state.username} className='form-control' placeholder='Enter your Email' onChange={(e) => this.handleOnChangeUsername(e)} />
                         </div>
                         <div className='col-12 form-group login-input'>
                             <label>password:</label>
